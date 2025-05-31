@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+    font-family: "poetsen";
+    src: url("/fonts/Poetsen_One/PoetsenOne-Regular.ttf");
+}
+
+@theme {
+    --font-poetsen: "poetsen", sans-serif;
+}
